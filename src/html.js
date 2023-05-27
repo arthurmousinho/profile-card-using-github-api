@@ -14,7 +14,7 @@ const Html = {
         profileCard.innerHTML = `
             <img src="${userObject.avatar_url}" alt="" id="avatar">
             <div class="content-container">
-                <h2 id="username">${userObject.name}</h2>
+                <h2 id="name">${userObject.name}</h2>
                 <p id="bio">${userObject.bio}</p>
                 <a href="${userObject.html_url}" id="github-link" target="_blank">
                     @${userObject.login}

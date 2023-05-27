@@ -76,9 +76,16 @@ main span {
     gap: 30px;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgba(255, 255, 255, 0.421);
+    border: 2px solid rgba(255, 255, 255, 0.421); 
     padding: 20px 30px;
     border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.profile-card:hover {
+    border: none;
+    background-color: #21262d;
+    transform: scale(1.05);
 }
 
 .profile-card #avatar {
@@ -93,7 +100,7 @@ main span {
     justify-content: space-around;
 }
 
-.content-container #username {
+.content-container #name {
     font-size: 3rem;
     color: white;
 }
@@ -107,6 +114,11 @@ main span {
 .content-container #github-link {
     color: #5272ffbb;
     font-style: italic;
+}
+
+
+.content-container #github-link:hover {
+    color: #5272fffe;
 }
 
 .restart-link {
