@@ -8,6 +8,7 @@ async function getUser(username) {
             return json
         }
     } catch (error) {
-        alert('Usuario nao encontrado')
+        alert('User not found')
+        window.location.reload()
     }
 }

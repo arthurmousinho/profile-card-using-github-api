@@ -4,7 +4,8 @@ const main = document.querySelector('main')
 button.addEventListener('click', async () => {
     if (Validation.inputIsEmpty()) {
         alert('You need to enter you github username to keep going')
-    } else {
+    } 
+    else {
         const username = document.querySelector('#github-username-input').value
         const userObject = await getUser(username)
 
