@@ -1,7 +1,7 @@
 const Html = {
     restartLink() {
         const restartLink = document.createElement('a')
-        restartLink.setAttribute('href', 'index.html')
+        restartLink.href = 'index.html'
         restartLink.classList.add('restart-link')
         restartLink.innerHTML = 'Restart'
 
