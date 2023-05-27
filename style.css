@@ -117,3 +117,62 @@ main span {
 .restart-link:hover {
     color: white;
 }
+
+
+@media (max-width: 768px) {
+
+    body {
+        height: 65vh;
+    }
+
+    main h1 {
+        font-size: 2rem;
+        max-width: 80vw;
+    }
+
+    .profile-card {
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .profile-card #avatar {
+        width: 40%;
+    }
+
+    .content-container {
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-container {
+        width: 90vw;
+    }
+
+    .content-container #username {
+        font-size: 2rem;
+    }
+
+    .content-container #bio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .search-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .search-container #seach-button, .search-container #github-username-input {
+        width: 60vw;
+    }
+}
