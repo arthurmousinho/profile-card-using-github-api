@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #16151E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+main h1 {
+    max-width: 1000px;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+main span {
+    color: #5271FF;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.search-container input {
+    width: 330px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.421);
+    height: 40px;
+    border-radius: 6px;
+    padding-left: 10px;
+    color: white;
+    transition: all 0.4s;
+}
+
+.search-container button {
+    height: 40px;
+    width: 100px;
+    background-color: rgb(35, 134, 54);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.search-container button:hover {
+    background-color: rgba(35, 134, 55, 0.799);
+}
+
+.profile-card {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.421);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.profile-card #avatar {
+    width: 200px;
+    border-radius: 999px;
+}
+
+.content-container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content-container #username {
+    font-size: 3rem;
+    color: white;
+}
+
+.content-container #bio {
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.64);
+    max-width: 400px;
+}
+
+.content-container #github-link {
+    color: #5272ffbb;
+    font-style: italic;
+}
+
+.restart-link {
+    color: rgba(255, 255, 255, 0.542);
+    text-decoration: none;
+}
+
+.restart-link:hover {
+    color: white;
+}
